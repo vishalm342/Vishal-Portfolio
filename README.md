@@ -74,13 +74,6 @@ Feel free to reach out if you:
 - Need consultation on web development
 - Just want to connect and share ideas
 
-## 🙏 Acknowledgments
-
-- Thanks to the React and Vite communities for amazing tools
-- Framer Motion for smooth animations
-- TailwindCSS for beautiful styling utilities
-- Lucide React for beautiful icons
-
 ---
 
 <div align="center">
