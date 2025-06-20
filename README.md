@@ -61,11 +61,9 @@ Visit my portfolio: [Live Demo](https://vishalm342.github.io/Vishal-Portfolio)
 I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
 
 ### 📧 Get in Touch
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [linkedin.com/in/vishal](https://linkedin.com/in/vishal)
+- **Email**: [your.email@example.com](vishalmuthukumaar18@gmail.com)
+- **LinkedIn**: [linkedin.com/in/vishal](https://www.linkedin.com/in/vishal-muthukumar/)
 - **GitHub**: [github.com/vishalm342](https://github.com/vishalm342)
-- **Twitter**: [@vishal_dev](https://twitter.com/vishal_dev)
-- **Portfolio**: [vishal-portfolio.dev](https://vishalm342.github.io/Vishal-Portfolio)
 
 ### 💬 Let's Connect!
 Feel free to reach out if you:
@@ -73,15 +71,6 @@ Feel free to reach out if you:
 - Want to collaborate on open source
 - Need consultation on web development
 - Just want to connect and share ideas
-
-## 🙏 Acknowledgments
-
-- Thanks to the React and Vite communities for amazing tools
-- Framer Motion for smooth animations
-- TailwindCSS for beautiful styling utilities
-- Lucide React for beautiful icons
-
----
 
 <div align="center">
 
