@@ -54,14 +54,14 @@ This portfolio is built using modern, industry-standard technologies:
 
 ## 🌐 Live Demo
 
-Visit my portfolio: [Live Demo](https://vishalm342.github.io/Vishal-Portfolio)
+Visit my portfolio: [Live Demo](https://vishalm-portfolio.netlify.app/)
 
 ## 📱 Contact & Connect
 
 I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
 
 ### 📧 Get in Touch
-- **Email**: [your.email@example.com](vishalmuthukumaar18@gmail.com)
+- **Email**: [your.email@example.com](vishalmuthukumar18@gmail.com)
 - **LinkedIn**: [linkedin.com/in/vishal](https://www.linkedin.com/in/vishal-muthukumar/)
 - **GitHub**: [github.com/vishalm342](https://github.com/vishalm342)
 
