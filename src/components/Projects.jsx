@@ -16,10 +16,10 @@ export default function Projects({ isDarkMode }) {
     {
       title: "PromptPal",
       description: "An AI-powered prompt management tool that helps users create, organize, and optimize their AI prompts. Features intuitive interface and smart categorization.",
-      tech: ["Node.js", "React", "Flask", "Tailwind CSS", "AI Integration"],
+      tech: ["Node.js", "React", "Flask", "Tailwind CSS", "Gemini API"],
       github: "https://github.com/vishalm342/PromptPal",
       live: "https://prompt-pal-murex.vercel.app/",
-      image: "/promptpal-cover.png",
+      image: "/prompt-pal.png",
       gradient: "from-purple-500 to-pink-600"
     },
     {
@@ -30,6 +30,33 @@ export default function Projects({ isDarkMode }) {
       live: "https://bounceballergame.pages.dev/",
       image: "/bounce-baller-cover.png",
       gradient: "from-green-500 to-teal-600"
+    },
+    {
+      title: "LumenFin",
+      description: "An AI-powered financial intelligence platform utilizing a high-speed RAG pipeline to analyze and extract insights from complex financial documents.",
+      tech: ["NextJS", "MongoDB", "Cerebras", "RAG Pipeline", "LangChain", "Clerk"],
+      github: "https://github.com/vishalm342/LumenFin.git",
+      live: "https://lumen-fin.vercel.app/",
+      image: "/lumen-fin.png",
+      gradient: "from-emerald-400 to-teal-700"
+    },
+    {
+      title: "Recruiter-AI",
+      description: "A modern, responsive landing page for an AI-powered recruiting platform designed to streamline and accelerate the hiring process for modern teams.",
+      tech: ["NextJS", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/vishalm342/Recruiter-AI.git",
+      live: "https://recruiter-ai-theta.vercel.app/",
+      image: "/recruiter-ai.png",
+      gradient: "from-blue-600 to-indigo-800"
+    },
+    {
+      title: "ShelfSense",
+      description: "An AI-powered recommendation engine that helps users discover hidden literary gems and curate a personalized library tailored to their unique tastes.",
+      tech: ["React", "AI Integration", "Tailwind CSS"],
+      github: "https://github.com/vishalm342/ShelfSense.git",
+      live: "https://shelf-sense-seven.vercel.app/",
+      image: "/shelfsense.png",
+      gradient: "from-orange-400 to-red-600"
     }
   ]
 
@@ -100,20 +127,19 @@ export default function Projects({ isDarkMode }) {
                 
                 <div className="relative z-10">
                   {/* Project Image */}
-                  <div className="w-full h-48 rounded-lg mb-6 overflow-hidden bg-gray-100">
+                  <div className="w-full h-48 rounded-lg mb-6 overflow-hidden bg-gray-100 relative">
                     <img 
                       src={project.image}
                       alt={`${project.title} Project Screenshot`}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 absolute inset-0 z-10"
                       onError={(e) => {
-                        // Fallback to gradient if image fails to load
                         e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'flex';
+                        e.target.nextElementSibling.style.display = 'flex';
                       }}
                     />
-                    {/* Fallback gradient (hidden by default) */}
+                    {/* Fallback gradient */}
                     <div 
-                      className={`w-full h-full bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                      className={`w-full h-full bg-gradient-to-br ${project.gradient} flex items-center justify-center absolute inset-0 z-0`}
                       style={{ display: 'none' }}
                     >
                       <div className="text-white text-center">
