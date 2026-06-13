@@ -32,6 +32,15 @@ export default function Projects({ isDarkMode }) {
       gradient: "from-green-500 to-teal-600"
     },
     {
+      title: "BobGuard",
+      description:"An AI-assisted security audit tool with vulnerability remediation that analyzes a GitHub repository for common insecure coding patterns and returns structured findings mapped to OWASP Top 10 style categories.",
+      tech:["IBM BOB AI","Python/FastAPI","React+Vite","Tailwind CSS","JavaScript"],
+      github:"https://github.com/vishalm342/BobGuard.git",
+      live:"https://bob-guard.vercel.app/",
+      image:"/bob-guard.png",
+      gradient:"from-blue-500 to-blue-700" 
+    },
+    {
       title: "LumenFin",
       description: "An AI-powered financial intelligence platform utilizing a high-speed RAG pipeline to analyze and extract insights from complex financial documents.",
       tech: ["NextJS", "MongoDB", "Cerebras", "RAG Pipeline", "LangChain", "Clerk"],
